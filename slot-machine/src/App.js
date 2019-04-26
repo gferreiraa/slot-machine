@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 
+//Styled Components
 import { Button } from './components/Button'
-import { Display } from './components/Display'
+import { Display, Container } from './components/Display'
 import { Wheel } from './components/Wheel'
 
 // SVG icons
@@ -11,6 +12,7 @@ import monkey from './assets/monkey.svg'
 import orange from './assets/orange.svg'
 import strawberry from './assets/strawberry.svg'
 
+
 function App() {
   return (
     <div className="App">
@@ -18,24 +20,20 @@ function App() {
         <h1>Slot Machine</h1>
         <p>You win or You lose 🤑😭</p>
         <Display>
-
           <Wheel>
             <img className="slot__icon" src={ banana }/>
           </Wheel>
-
           <Wheel>
             <img className="slot__icon" src={ orange }/>
           </Wheel>
-
           <Wheel>
             <img className="slot__icon" src={ strawberry }/>
           </Wheel>
-
         </Display>
-        <div className="button__container">
-          <Button primary> Start </Button>
+        <Container>
+          <Button primary onClick={console.log('The link was clicked.')}> Start </Button>
           <Button> Stop </Button>
-        </div>
+        </Container>
       </header>
     </div>
   );

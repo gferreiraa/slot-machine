@@ -10,3 +10,6 @@ export const Display = styled.div`
     justify-content: space-evenly;
     align-items: center;
 `
+export const Container = styled.div`
+    display: flex;
+`
