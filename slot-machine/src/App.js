@@ -16,6 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Slot Machine</h1>
+        <p>You win or You lose 🤑😭</p>
         <Display>
 
           <Wheel>
