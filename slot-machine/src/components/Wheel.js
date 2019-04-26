@@ -5,4 +5,7 @@ export const Wheel = styled.div`
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
