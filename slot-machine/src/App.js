@@ -2,9 +2,7 @@ import React from 'react';
 import './App.css';
 
 //Styled Components
-import { Button } from './components/Button'
-import { Display, Container } from './components/Display'
-import { Wheel } from './components/Wheel'
+import { Button, Display, Container, Wheel } from './components/Styled'
 
 // SVG icons
 import banana from './assets/banana.svg'
