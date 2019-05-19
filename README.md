@@ -1,4 +1,4 @@
-# Project Slot Machine: Test to Luxoft - Front-End Developer
+# Project Slot Machine: Test to Luxoft - Front-End Developer [Update]
 
 ## Documentation 
 - [Create-react-app Documentation](https://github.com/facebookincubator/create-react-app)
